@@ -1,0 +1,99 @@
+.leave-margin {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.intent-margin {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+.questions-margin {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.item-margin {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.vlcard-height {
+  height: 181px;
+  border-radius: 6px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 197px;
+}
+
+.slide-margin {
+  margin-right: 8px;
+  border-radius: 6px;
+  border: 1px solid;
+  margin-bottom: 8px;
+}
+
+.cico-style {
+  width:197px;height:110px;
+}
+
+.some-class {
+  height:46.5px
+}
+
+.vcac-style {
+  height: 32px; margin-top: -16px;
+}
+
+.questions-slides {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.questions {
+  display: flex;
+  width: 960px;
+  flex-wrap: wrap;
+}
+
+/* .scrollbar-prop {
+  height: 206px; margin-bottom: -30px; padding-bottom: 30px;
+}
+
+.slidebar-height {
+  height: 181px;
+} */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
