@@ -51,7 +51,7 @@ class Intents extends React.Component {
       });
 
       if(!!pmaapi && !!pmaapi.fetchIntents)
-      pmaapi.fetchIntents(this.query).then(function(data) {        
+      pmaapi.fetchIntents(query).then(function(data) {        
         this.setState(function() {
           return {
             intents: data.item
