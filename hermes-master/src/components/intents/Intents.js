@@ -29,7 +29,7 @@ ShowIntents.propTypes = {
   intents: PropTypes.array.isRequired
 }
 
-module.exports = class Intents extends React.Component {  
+class Intents extends React.Component {  
     constructor(query) {
       super();
       this.state = {
@@ -83,3 +83,5 @@ module.exports = class Intents extends React.Component {
       );
     }
   }
+
+  export default Intents;
