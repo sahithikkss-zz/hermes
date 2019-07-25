@@ -59,14 +59,6 @@ componentDidMount() {
     }
   };
 
-  // readInput(){    
-  //   var input = this.refs.searchInput;
-  //   this.userQuery = input.value;
-  //   this.render();
-  //   console.log(input.value);
-  //   console.log(this.userQuery);
-  // }
-
   render() {
     return (
       <div className="leave-margin">

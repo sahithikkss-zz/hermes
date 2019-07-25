@@ -24,24 +24,26 @@
   border-radius: 6px;
   border-spacing: 0px;
   border-collapse: collapse;
-  width: 197px;
+  width: 250px;
 }
 
 .slide-margin {
-  margin-right: 8px;
   border-radius: 6px;
-  border: 1px solid;
-  margin-bottom: 8px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 4px 0 rgba(0,0,0,.16);
+  margin: 4px;
 }
 
 .cico-style {
-  width:197px;height:110px;
+  width:250px;height:110px;
 }
 
-.some-class {
-  height:46.5px
+.some-class {  
+  height:46.5px  
 }
 
+.bigger-text {
+  font-size: 20px;
+}
 .vcac-style {
   height: 32px; margin-top: -16px;
 }
@@ -55,6 +57,10 @@
   display: flex;
   width: 960px;
   flex-wrap: wrap;
+}
+
+.expand-on-hover {
+  
 }
 
 /* .scrollbar-prop {

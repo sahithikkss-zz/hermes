@@ -15,20 +15,21 @@ class ShowQuestions extends React.Component {
               <div className="slide slide-margin" data-dataurl="" data-rinterval="" data-appns="SERP" data-k="5491.1" tabIndex="0"
                   role="listitem" key={' slide key' + ind}>
                   <div className="rc_vlCard vlcard-height">
-                      <div className="rc_vlImag" aria-label="question.answerString">
-                          <div className="cico cico-style"><img height="110" width="197"
-                                      data-src-hq="/th?id=ODL.eb76369e5bbaec2264def5d3ab5fc213&amp;w=197&amp;h=110&amp;c=7&amp;rs=1&amp;qlt=80&amp;pid=RichNav"
-                                      alt="question.answerString"
+                      <div className="rc_vlImag" aria-label={question.answerString}>
+                          <div className="cico cico-style"><img height="165" width="250"
+                                      data-src-hq="/th?id=ODL.eb76369e5bbaec2264def5d3ab5fc213&amp;w=250&amp;h=165&amp;c=7&amp;rs=1&amp;qlt=80&amp;pid=RichNav"
+                                      alt={question.answerString}
                                       data-priority="2" id="emb294D0FE5" className="rms_img"
                                       src={question.imageSource}
                                       data-bm="36"/>
                                       </div>
                       </div>
                       <div className="rc_vlImgFact">
-                          <ul className="b_dataList">
-                              <li key={'key2' + ind } className="some-class"><a target="_blank"
+                          <ul className="b_dataList expand-on-hover">
+                              <li key={'key2' + ind } className="some-class"><a target="_blank" className="bigger-text"
                                       href={question.hyperLinkUrl}
                                       h="ID=SERP,5474.1">{question.question}</a></li>
+                              {/* <li key={'key3' + ind } className="some-class">{question.answerString}</li> */}
                           </ul>
                       </div>
                   </div>

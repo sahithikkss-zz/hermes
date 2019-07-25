@@ -12,7 +12,7 @@ class Header extends React.Component {
     this.userQuery = 'australia';
     //this.searchForImages = this.searchForImages.bind(this);
   }
-  
+
 
   componentDidMount() {
     this.render();
@@ -26,16 +26,16 @@ class Header extends React.Component {
         <h1 className="b_logo" title="Back to Bing search" aria-label="Go to Bing homepage" data-bm="1"><img src="https://www.bing.com/sa/simg/SharedSpriteDesktop_2x_040919.png" alt="Go to Bing homepage" title="Back to Bing search" data-bm="13"/></h1>
           </a>
           <div className="b_searchboxForm" role="search" data-bm="2">
-            <input className="b_searchbox" ref="searchInput" id="sb_form_q" name="q" 
-            aria-label="Enter your search here - Search suggestions will show as you type" 
+            <input className="b_searchbox" ref="searchInput" id="sb_form_q" name="q"
+            aria-label="Enter your search here - Search suggestions will show as you type"
             type="search" placeholder="Enter your query" maxLength="1000"/>
               <div id="sb_go_par" data-sbtip="Search the web">
-                  <input type="button" className="b_searchboxSubmit" id="sb_form_go" tabIndex="0" name="go" onClick={this.props.onClick}/>          
+                  <input type="button" className="b_searchboxSubmit" id="sb_form_go" tabIndex="0" name="go" onClick={this.props.onClick}/>
               </div>
-              <input id="sa_qs" name="qs" value="ds" type="hidden"/>
-                <div id="sw_as"></div>
+              {/* <input id="sa_qs" name="qs" value="ds" type="hidden"/>
+                <div id="sw_as"></div> */}
               </div>
-      </form>     
+      </form>
         </div>
       );
 
